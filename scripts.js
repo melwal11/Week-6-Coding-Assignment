@@ -125,7 +125,7 @@ class Card {
       } else if (this.player2.score > this.player1.score) {
         console.log(`${this.player2.name} wins!`);
       } else {
-        console.log("It's a tie!");
+        console.log("Both players tied!");
       }
     }
   }
